@@ -1,9 +1,25 @@
-.text-center {
-    font-family: 'VT323', monospace;
-    font-size: larger;
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #000;
+        color: #333;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: white;
+    }
+}
+
+.logo {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) scale(2.7);
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: crisp-edges;
 }
