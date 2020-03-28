@@ -1,7 +1,7 @@
 /* Light mode */
 @media (prefers-color-scheme: light) {
     body {
-        background-color: #000;
+        background-color: white;
         color: #333;
     }
 }
